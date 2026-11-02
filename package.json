@@ -1,0 +1,22 @@
+{
+  "name": "playwright-vsource",
+  "version": "0.1.0",
+  "description": "MCP server that renders a page's raw HTML source like Chrome's view-source and screenshots it with highlighted matches.",
+  "type": "module",
+  "bin": {
+    "playwright-vsource": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "shot": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "playwright": "1.64.1",
+    "zod": "4.6.7"
+  }
+}
