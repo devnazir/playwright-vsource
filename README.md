@@ -4,7 +4,7 @@ An MCP server that fetches a page's raw HTML the way a real browser does, render
 
 It's built for proof screenshots: "the canonical is fixed", "hreflang now points here", "the meta description no longer double-encodes `&`". Playwright can't open `view-source:` URLs, so this rebuilds the view instead.
 
-![example](https://raw.githubusercontent.com/devnazir/playwright-vsource/main/docs/example.png)
+![example](docs/example.png)
 
 ## Features
 
